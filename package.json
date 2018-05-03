@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-pangu-comment",
+  "version": "0.0.4",
+  "description": "Pangu whitespace for Chinese comments.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "doodlewind",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "pangu": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
